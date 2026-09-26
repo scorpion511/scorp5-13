@@ -3,8 +3,43 @@
 <head>
 <title>WELCOME TO SCORPION HACK All in 1</title>
 <link rel="stylesheet" href="../style.css">
+<style>
+    /* Absolute container placement for your branding logo */
+    .logo-left-top {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        z-index: 999;
+    }
+    .logo-left-top img {
+        height: 65px;       /* Suitable scale height matching standard exploit headers */
+        aspect-ratio: 1 / 1; /* Forces the image to be a perfect square before rounding */
+        object-fit: cover;   /* Centers the image contents inside the circle frame */
+        border-radius: 50%;  /* Clips the outer corners into a smooth circle */
+        border: 2px solid #00bfff; /* Adds a solid neon blue circular outline ring */
+        filter: drop-shadow(0px 0px 8px #00bfff); /* Cyan neon glow effect matching your background setup */
+    }
+    
+    /* Responsive layout fallback rule for tiny viewports */
+    @media (max-width: 768px) {
+        .logo-left-top {
+            position: relative;
+            margin: 10px auto;
+            text-align: center;
+            display: block;
+            left: 0;
+            top: 0;
+        }
+    }
+</style>
 </head>
 <body>
+
+<!-- Upper Left Custom Circular Logo Block -->
+<div class="logo-left-top">
+    <img src="logo_scorp" alt="SCORPION LOGO">
+</div>
+
 <script>
 var uaFull = navigator.userAgent;
 var match = uaFull.match(/PlayStation 4[ /]([\d.]+)/i);
