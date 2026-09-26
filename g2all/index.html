@@ -4,37 +4,28 @@
 <title>WELCOME TO SCORPION HACK All in 1</title>
 <link rel="stylesheet" href="../style.css">
 <style>
-   
-    .logo-left-top {
-        position: absolute;
-        top: 10px;
-        left: 15px;
-        z-index: 999;
+    /* Centers the logo layout wrapper directly on the page layout grid */
+    .logo-center-wrapper {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        display: block;
+        width: 100%;
     }
-    .logo-left-top img {
-        height: 75px;       /* Scale height to keep the logo clear and text readable */
-        width: auto;
-        object-fit: contain; /* Keeps your shield shape intact without cutting off edges */
-        filter: drop-shadow(0px 0px 10px #f31414); /* Red aura glow that matches your shield theme */
-    }
-    
-   
-    @media (max-width: 768px) {
-        .logo-left-top {
-            position: relative;
-            margin: 10px auto;
-            text-align: center;
-            display: block;
-            left: 0;
-            top: 0;
-        }
+    .logo-center-wrapper img {
+        height: 110px;       /* Keeps the large visible sizing scale */
+        width: 110px;        /* Equal dimensions for a perfect circle box */
+        object-fit: cover;   /* Cuts out empty outer image borders cleanly */
+        border-radius: 50%;  /* Forms the sharp circular shape */
+        border: 3px solid #f31414; /* Crimson red outline ring frame */
+        filter: drop-shadow(0px 0px 12px #f31414); /* Beautiful glowing red theme aura */
     }
 </style>
 </head>
 <body>
 
-<!-- Upper Left Custom Shield Logo Block -->
-<div class="logo-left-top">
+<!-- Centered Custom Circular Logo Block -->
+<div class="logo-center-wrapper">
     <img src="logo_scorp.png" alt="SCORPION LOGO">
 </div>
 
@@ -42,7 +33,7 @@
 var uaFull = navigator.userAgent;
 var match = uaFull.match(/PlayStation 4[ /]([\d.]+)/i);
 var isPS4 = match !== null;
-var fwVersion = isPS4 ? match[1] : "Unknown";
+var fwVersion = isPS4 ? match : "Unknown";
 var fwNum = parseFloat(fwVersion);
 
 function onScriptError() {
