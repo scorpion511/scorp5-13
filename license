@@ -1,0 +1,38 @@
+SCORP SYSTEM PORTAL - LEGACY FIRMWARE ENVIRONMENT CHARTER
+=========================================================
+
+This custom project architecture, front-end routing framework, user interface layout, 
+and deployment file package designed for the PlayStation 4 homebrew environment 
+(specifically optimized for systems running firmware versions 5.05 through 13.00), 
+is the exclusive intellectual property of Ahmed Essam (GitHub: scorpion511).
+
+SECTION I: DEPLOYMENT STIPULATIONS & IDENTITY PROTECTIONS
+
+1. INTERFACE RECOGNITION & ATTRIBUTION
+   The visual framework design, neon typography style layout, menu sorting rules, and 
+   branding elements known as "SCORP HOST" are uniquely authored and compiled by Ahmed Essam. 
+   Any public server deployments, mirror sites, or community forks tracking this software 
+   package must preserve prominent and visible attribution strings ("Designed By Ahmed Essam") 
+   on the interface layout at all times.
+
+2. CLONING RESTRICTIONS & NAME REPACKAGING
+   No external party, individual, or developer is authorized to strip this repository of its 
+   rightful ownership text, replace the creator's signatures with their own name, or attach 
+   a conflicting license file wrapper onto unauthorized duplicates of this file package tree. 
+   Doing so constitutes a violation of copyright and instantly revokes all permissions to host 
+   or mirror these structural layouts.
+
+3. CONSOLE RESOURCE WRAPPING
+   This master interface serves as a visual wrapper that initializes independent community 
+   exploitation scripts, payload injection binaries (such as GoldHEN suites), and kernel 
+   offset arrays required to complete system verification procedures. These background payload 
+   files and core execution routines maintain their respective independent homebrew community roots 
+   and are not claimed under the copyright of this front-end presentation wrapper.
+
+SECTION II: RISK MANAGEMENT CLAUSES
+
+1. EXCLUSION OF LIABILITY
+   THIS INTERFACE HUB IS DISTRIBUTED FOR PRIVATE EVALUATION PURPOSES ON AN "AS IS" BASIS. 
+   THE AUTHOR ASSEPTS ABSOLUTELY ZERO LIABILITY OR WARRANTY FOR DATA INSTABILITY, SYSTEM 
+   UNRESPONSIVENESS, INTERNAL STORAGE FREEZES, OR FIRMWARE CORRUPTION THAT MAY OCCUR ON 
+   YOUR RELEVANT SYSTEM ENVIRONMENT DURING EXPLOIT OPERATION PROCEDURES.
